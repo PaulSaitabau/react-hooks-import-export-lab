@@ -1,13 +1,12 @@
-import React from "react";
+import React from 'react';
 
-function App() {
-  return (
-    <div>
-      <NavBar />
-      <Home />
-      <About />
-    </div>
-  );
+function NavBar() {
+ // Component implementation
+ return (
+    <nav>
+      {/* NavBar content */}
+    </nav>
+ );
 }
 
-export default App;
+export default NavBar;
